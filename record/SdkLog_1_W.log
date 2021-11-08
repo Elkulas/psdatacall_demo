@@ -1,0 +1,26 @@
+[2021-11-08 14:27:14.537][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2021-11-08 14:27:14.537][INF] The COM:Core ver is 6.1.6.45, 2021_03_02. Async:1.
+[2021-11-08 14:27:14.537][INF] This HCNetSDK ver is 6.1.6.45 Ver 2021_03_02.
+[2021-11-08 14:27:14.538][INF] Login dev 192.168.1.64:8000.
+[2021-11-08 14:27:14.538][INF] dwTotalNum[2048]
+[2021-11-08 14:27:14.538][INF] Private connect 192.168.1.64:8000 sock=131 this=0x1eee334 cmd=0x10000 port=45086
+[2021-11-08 14:27:14.538][INF] LogonDev1 in[192.168.1.64:8000]
+[2021-11-08 14:27:14.545][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/psdatacall_demo/./libcrypto.so], hHandleRet[32473648]
+[2021-11-08 14:27:14.548][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/psdatacall_demo/./libssl.so], hHandleRet[32475264]
+[2021-11-08 14:27:14.548][INF] SSLTRANSAPI::LoadAPI, libeay, Load Real Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/psdatacall_demo/./libcrypto.so]
+[2021-11-08 14:27:14.548][INF] SSLTRANSAPI::LoadAPI, libssl, Load Real Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/psdatacall_demo/./libssl.so]
+[2021-11-08 14:27:14.548][INF] SSLTRANSAPI::IsAllAPILoaded, OpenSSL_version Unload
+[2021-11-08 14:27:14.548][INF] OpenSSL, Not All Function Loaded!
+[2021-11-08 14:27:14.552][INF] SSLTRANSAPI::PrintVersion, SSLeay_version info [OpenSSL 1.0.2t  10 Sep 2019]
+[2021-11-08 14:27:14.552][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[0], m_fnClientMethodV23
+[2021-11-08 14:27:14.598][DBG] CComBase::Load, Load szDllPath[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/psdatacall_demo/./HCNetSDKCom/libHCPreview.so] SUCC
+[2021-11-08 14:27:14.599][INF] AbilityAnalyze---Init-- start
+[2021-11-08 14:27:14.600][DBG] AbilityAnalyze---Init-- over, DeviceList path [/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/psdatacall_demo/HCNetSDKCom/LocalXml/DeviceList.xml], load result[0]
+[2021-11-08 14:27:14.600][INF] The COM:Preview ver is 6.1.6.45, 2021_03_02.
+[2021-11-08 14:27:14.601][INF] Private connect 192.168.1.64:8000 sock=131 this=0x1eee334 cmd=0x30000 port=45090
+[2021-11-08 14:27:14.606][INF] ID-IP-CHAN[0-192.168.1.64-1] [CGetTCPStream::Start] Stream Head Data Callback Start
+[2021-11-08 14:27:14.606][INF] ID-IP-CHAN[0-192.168.1.64-1] [CGetTCPStream::Start] Stream Head Data Callback End
+[2021-11-08 14:27:14.606][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[2], cTempPath[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/psdatacall_demo/./HCNetSDKCom/]
+[2021-11-08 14:27:14.611][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[33052144], enumDllType[2], Path[libSystemTransform.so], syserror[115]
+[2021-11-08 14:27:14.611][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2021-11-08 14:27:14.615][DBG] ID-IP-CHAN[0-192.168.1.64-1] RTP Format
